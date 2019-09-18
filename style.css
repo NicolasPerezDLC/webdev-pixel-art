@@ -1,1 +1,25 @@
-  
+#art {
+
+display: table;
+ border-spacing: 1px;
+ background-color: black;
+border: 5px solid black;
+}
+
+.row {
+    display: table-row;
+}
+
+.pixel {
+    display: table-cell;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.pen {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black
+}
